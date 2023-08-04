@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(45deg, rgb(105, 143, 233), #e64dca);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+.main_div {
+    text-align: center;
+    background-color: rgb(89, 34, 219);
+}
+.cnt{
+    /* background-color: black; */
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-left: 400px;
+}
+
+
+ 
+h1{
+    color: whitesmoke;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+p{
+    color: whitesmoke;
+}
+ 
+img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 360px;
+}
+
+/* .btn{
+    font-size: x-large;
+    color: aquamarine;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 280px;
+    width:10vh ;
+} */
+#prev{
+    /* background-color: black; */
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background: yellow;
+    font-weight: bolder;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+
+}
+#play{
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background: yellow;
+    font-weight: bolder;
+    
+    position: absolute;
+    top: 600px;
+    left: 330px;
+}
+#next{
+    border: 3px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    background: yellow;
+    font-weight: bolder;
+    
+    position: absolute;
+    top: 600px;
+    left: 440px;
+    margin-left: 100px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}
